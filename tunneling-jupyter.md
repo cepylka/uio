@@ -50,4 +50,4 @@ Either way, having established that you have `8888` port available both on your 
 $ ssh -N -L 8888:localhost:8888 -J login.uio.no beehive -v
 ```
 
-Not you should be able to open http://localhost:8888 in your browser (*or connect to it from VS Code*).
+Now you should be able to open http://localhost:8888 in your browser (*or connect to it from VS Code*).
