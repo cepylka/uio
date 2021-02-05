@@ -32,7 +32,7 @@ $ cd ~/code/rh/doc/notebooks/
 $ jupyter lab --no-browser
 ```
 
-If the `8888` port is available, it should successfully bind to it. If this port is not available, check if you already have Jupyter running:
+If the `8888` port is available, it should successfully bind to it. If this port is not available, check if you already have Jupyter running on beehive:
 
 ```
 $ ps -u | grep jupyter
@@ -44,7 +44,7 @@ If you do, then either just use its port or kill the process and start new. One 
 
 so I'm a bit confused whether they are actually on the same host, so they can take ports. If they can, then you need to run Jupyter on a different port.
 
-Either way, having established that you have `8888` port available both on your Mac and on `beehive`, tunnel to it:
+Either way, having established that you have `8888` port available both on your Mac and on `beehive`, tunnel to it from your Mac:
 
 ```
 $ ssh -N -L 8888:localhost:8888 -J login.uio.no beehive -v
