@@ -32,7 +32,7 @@ $ cd ~/code/rh/doc/notebooks/
 $ jupyter lab --no-browser
 ```
 
-If the `8888` port is available, it should successfully bind to it. If this port is not available, check if you already have Jupyter running on beehive:
+If the `8888` port is available, it should successfully bind to it. If this port is not available, check if you already have Jupyter running on `beehive`:
 
 ```
 $ ps -u | grep jupyter
