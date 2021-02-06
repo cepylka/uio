@@ -131,6 +131,6 @@ $ sshfs login.uio.no:/uio/hume/student-u22/YOUR-USERNAME ~/Documents/uio/home
 
 Installation order:
 
-1. [RH 1.5D](rh15d.md)
-2. [Helita](helita.md)
-3. [Jupyter](jupyter.md)
+1. [RH 1.5D](instructions/rh15d.md)
+2. [Helita](instructions/helita.md)
+3. [Jupyter](instructions/jupyter.md)
