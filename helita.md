@@ -5,6 +5,7 @@
 ## Dependencies
 
 ``` sh
+$ pip install cython
 $ pip install numpy
 $ pip install astropy
 $ pip install scipy
